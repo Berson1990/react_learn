@@ -1,9 +1,9 @@
 import React from 'react';
 
 const validationInput = (props) => {
-    var TextValidation = 'text long enough'
+    var TextValidation = 'text long enough';
      if (props.length <= 5) {
-        TextValidation = 'text too short'
+        TextValidation = 'text too short';
     } 
     return (
         <div>
